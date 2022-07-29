@@ -5,6 +5,45 @@ section {
 }
 
 .hero {
-  background-color: aqua;
+  background-color: rgb(26, 23, 58);
   height: 100vh;
+  color: aliceblue;
+  font-size: 40px;
+  
+}
+
+footer {
+  height: 500px;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 58px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+}
+
+.hero-text h1{
+  margin-left: 40px;
+}
+
+.hero-text p {
+  margin-left: 50px;
 }
