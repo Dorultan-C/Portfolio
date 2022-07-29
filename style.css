@@ -3,3 +3,8 @@ section {
   background-color: antiquewhite;
   border: solid black 1px;
 }
+
+.hero {
+  background-color: aqua;
+  height: 100vh;
+}
