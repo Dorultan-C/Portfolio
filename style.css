@@ -72,3 +72,11 @@ p {
   padding-top: 6px;
   margin-top: 20px;
 }
+
+.logo {
+  
+  border-radius: 15%;
+  margin-top: 50px;
+  margin-left: 50px;
+
+}
