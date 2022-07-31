@@ -51,13 +51,23 @@ p {
   font-weight: 300;
   /* font-size: 30px; */
 }
+.hero-text {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin-bottom: 200px;
 
+}
 .hero-text h1{
   margin-left: 40px;
+  
 }
 
 .hero-text p {
   margin-left: 50px;
+  
 }
 
 .button {
