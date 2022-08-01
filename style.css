@@ -10,7 +10,7 @@ section {
 
 .hero {
  
-  background-color: rgb(26, 23, 58);
+  background-color: rgb(24, 24, 54);
   height: 100vh;
   color: aliceblue;
   font-size: 40px;
@@ -87,8 +87,8 @@ p {
 }
 
 .logo {
-  
-  border-radius: 15%;
+  height: 70px;
+  border-radius: 5%;
   margin-top: 50px;
   margin-left: 50px;
 
@@ -106,4 +106,8 @@ p {
 
 .socials {
   padding-bottom: 200px;
+}
+
+.social {
+  margin: 20px;
 }
