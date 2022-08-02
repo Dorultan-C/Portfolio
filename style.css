@@ -3,7 +3,7 @@ body {
 }
 
 section {
-  height: 500px;
+  
   background-color: antiquewhite;
   border: solid black 1px;
 }
@@ -47,6 +47,10 @@ h1 {
   margin: 0;
   font-weight: 100;
   margin-left: 40px;
+}
+
+h2 {
+  font-size: 60px;
 }
 
 p {
@@ -110,4 +114,20 @@ p {
 
 .social {
   margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
 }
