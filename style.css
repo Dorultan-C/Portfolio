@@ -187,3 +187,20 @@ a {
   color: rgb(255, 255, 255);
 }
 
+.hamburger {
+display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+}
+  ul {
+    display: none;
+  }
+
+}
