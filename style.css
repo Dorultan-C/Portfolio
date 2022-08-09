@@ -36,6 +36,9 @@ ul {
   justify-content: space-around;
   font-size: 30px;
 }
+ul.show {
+  display: block;
+} 
 
 li {
   /* width: 200px; */
@@ -187,6 +190,10 @@ a {
   color: rgb(255, 255, 255);
 }
 
+.hamburger:focus {
+  outline: 0;
+}
+
 .hamburger {
 display: none;
 }
@@ -198,9 +205,26 @@ display: none;
     background-color: transparent;
     color: white;
     font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
 }
   ul {
     display: none;
+    background-color:  rgb(32, 32, 66);
+    margin: 0;
+
   }
 
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color:  rgb(32, 32, 66);
+  }
+  .logo {
+    display: none;
+  }
+
+  ul.show {
+    display: block;
+  }
 }
