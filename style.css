@@ -61,8 +61,9 @@ h2 {
 p {
   margin: 0;
   font-weight: 300;
-  /* font-size: 30px; */
+  font-size: 30px;
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 .subtext {
@@ -227,4 +228,12 @@ display: none;
   ul.show {
     display: block;
   }
+}
+
+.digital-clock-photo {
+  height: 250px;
+  margin-top: 20px;
+  border-radius: 20px;
+
+
 }
