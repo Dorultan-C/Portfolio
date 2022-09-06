@@ -250,3 +250,14 @@ display: none;
   margin-top: 20px;
   border-radius: 20px;
 }
+
+#name {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#email {
+  border-radius: 5px;
+  
+}
