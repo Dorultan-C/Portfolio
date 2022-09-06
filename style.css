@@ -259,5 +259,8 @@ display: none;
 
 #email {
   border-radius: 5px;
-  
-}
+  }
+
+  .submit-button {
+    margin-top: 5px;
+  }
