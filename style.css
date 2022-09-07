@@ -251,7 +251,7 @@ display: none;
   border-radius: 20px;
 }
 
-#name {
+/* #name {
   margin-top: 20px;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -263,4 +263,18 @@ display: none;
 
   .submit-button {
     margin-top: 5px;
+  } */
+
+  label {
+    display: block;
+  }
+
+  input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
   }
