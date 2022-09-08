@@ -1,5 +1,6 @@
 body {
   font-family: 'Ibarra Real Nova', serif;
+  line-height: 1.5;
 }
 
 section {
@@ -18,8 +19,8 @@ section {
 }
 
 footer {
-  background-color: black;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 80px;
 }
@@ -260,21 +261,45 @@ display: none;
 #email {
   border-radius: 5px;
   }
-
-  .submit-button {
-    margin-top: 5px;
-  } */
+*/
+  
 
   label {
     display: block;
   }
 
-  input {
-    border: 1px solid #ccc;
+  input[type='text'],
+  input[type='email']
+  {
+    border: 2px solid rgb(226, 116, 92);
     border-radius: 5px;
     padding: 0.5rem 0.7rem;
+    transition: border-color 0.25s, box-shadow 0.25s;
   }
+
 
   .form-group {
     margin-bottom: 1rem;
   }
+
+  input[type='text']:focus,
+  input[type='email']:focus,
+  button[type='submit']:hover,
+  button[type='reset']:hover
+   {
+    border: 3px solid rgb(109, 206, 227);
+    outline: 0;
+    box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
+  }
+
+  button {
+    padding: .5rem .7rem;
+    margin-top: .5rem;
+    outline: 0;
+    background: lightblue;
+    color: aliceblue;
+    border: 0;
+    border-radius: 5px;
+  }
+
+ 
