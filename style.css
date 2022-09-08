@@ -150,6 +150,7 @@ p {
 .headshot-container {
   display: flex;
   align-items: center;
+
 }
 
 .project-card {
@@ -165,6 +166,9 @@ p {
   justify-content: space-around;
 }
 
+.project-card:hover{
+  transform: scale(1.1);
+}
 @media only screen and (max-width: 1000px) {
   .project-container {
     display: flex;
