@@ -238,6 +238,7 @@ display: none;
   }
 }
 
+
 .digital-clock-photo {
   height: 250px;
   margin-top: 20px;
@@ -254,6 +255,12 @@ display: none;
 }
 
 .Nikola-Tesla-tribute-page-photo {
+  height: 250px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.calculator-photto {
   height: 250px;
   margin-top: 20px;
   border-radius: 20px;
